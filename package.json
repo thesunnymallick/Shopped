@@ -10,8 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node Backend/server.js",
-    "dev": "concurrently \"npm start\" \"npm run client\" ",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --force --prefix frontend && npm run build --prefix frontend"
+    "dev": "concurrently \"npm start\" \"npm run client\" "
   },
   "author": "Sunny Mallick",
   "license": "ISC",
